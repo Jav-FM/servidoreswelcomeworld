@@ -1,0 +1,23 @@
+h2 {
+    text-align: center;
+    padding-top: 50px;
+}
+#forms-group {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: solid 1px #000000;
+    width: 300px;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: stretch;
+    border-radius: 10px;
+}
